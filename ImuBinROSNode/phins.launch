@@ -1,0 +1,10 @@
+<launch>
+  <arg name="ip_address" value="192.168.36.124" />
+
+  <param name="/phins/ip_address"               value="192.168.36.124" />
+  <param name="/phins/outputs/port_imubin"      value="1136" />
+
+  <node pkg="ifr_phins"   type="iphins_imubin"          name="phins_imubin"  >
+  </node>
+
+</launch>
