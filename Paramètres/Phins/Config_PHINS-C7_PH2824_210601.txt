@@ -1,0 +1,175 @@
+Settings PH2824:
+------------------
+
+Version Settings File: 1.1
+
+Package Name:          
+Version Loader DSP:    LoaderDSP4_3_10
+Version Firmware DSP:  FrmWDSP4_INS_6_43_5_4
+Version Loader CINT:   LoaderCINT_5_22
+Version Firmware CINT: FrmWCINT_INS_6_55_3_1_5
+Version IHM:           5.76.4-1.125.58.3
+Version QNX:           QNX v2.23 
+
+
+PortConfR=[1,0,200,0,1,0,0,2,3,0,7,0,0]
+PortConfA=[115,0,10,0,0,0,0,0,1,0,6,0,0]
+PortConfB=[8,2,100,0,0,0,0,0,1,0,6,0,0]
+PortConfC=[18,0,100,0,0,0,0,0,1,0,4,0,0]
+PortConfD=[2,0,20,0,0,12,0,0,1,0,4,0,0]
+PortConfE=[39,0,100,0,0,10,0,0,1,1,4,0,0]
+PortConfF=[0,0,0,0,0,4,0,0,0,0,0,0,0]
+PortConfG=[0,0,0,0,0,3,0,0,0,0,0,0,0]
+EthConfR=[3,0,192.168.36.102,8110]
+EthConfA=[2,2,192.168.36.125,8200]
+EthConfB=[1,3,255.255.255.255,1136]
+EthConfC=[2,2,192.168.0.2,1134]
+EthConfD=[2,0,255.255.255.255,50205]
+EthConfE=[2,2,192.168.0.2,1138]
+EthConfIA=[2,3,255.255.255.255,1124]
+EthConfIB=[2,1,192.168.0.2,10008]
+EthConfIC=[2,1,192.168.0.2,10009]
+EthConfID=[2,3,255.255.255.255,1135]
+EthConfIE=[2,2,192.168.0.2,1143]
+EthConfIF=[2,2,192.168.0.2,1139]
+EthConfIG=[2,3,255.255.255.255,1153]
+MesaCrt=[0.000,0.000,0.000,1,0]
+LVA=[0.217,-0.207,0.100,1.085,-0.079,-0.749,1.235,-0.080,-0.586,1.298,-0.078,-0.533]
+MesaOrient=[0]
+COG=[0.000,0.000,0.000]
+PULSEIAConf=[0,0.000000,0]
+PULSEIBConf=[0,0.000000,0]
+PULSEICConf=[0,0.000000,0]
+PULSEIDConf=[0,0.000000,0]
+PULSEOAConf=[0,0.000000]
+PULSEOBConf=[0,0.000000]
+EthIP=[0,192.168.36.124,255.255.0.0,192.168.36.100,192.168.36.100,192.168.36.99]
+ExtSToSerial=[7,1,0,4,2,6,0,0,0,5,0,0,0,0,0,0,3]
+KFMExtSensor=[0,0,2,1,1,1,0,0,1,1,0,0,0,1,0,1,1]
+USBL0Conf=[2]
+USBL1Conf=[-]
+USBL2Conf=[-]
+GPSLVA=[0.646,-0.117,1.362]
+GPS2LVA=[0.931,-0.045,1.073]
+GPSMLVA=[0.000,0.000,0.000]
+DepthLVA=[-0.565,0.310,-0.107]
+USBL0LVA=[0.931,-0.045,1.073]
+USBL1LVA=[0.000,0.000,0.000]
+USBL2LVA=[0.000,0.000,0.000]
+LBLLVA=[-2.414,0.070,1.973]
+ODOLVA=[0.000,0.000,0.000]
+ODOCAL=[0.000,0.000,0.000,0.0000]
+DVLLVA=[0.481,-0.501,-0.622]
+DVLCAL=[-0.000,-0.255,-1.243,0.0000]
+DVLTAM=[3600.000,0.100]
+DVL2LVA=[1.297,-0.682,-0.306]
+DVL2CAL=[4.791,-24.240,0.821,0.0000]
+LEMLVA=[0.000,0.000,0.000]
+LEMCAL=[0.000,0.000,0.000,0.0000]
+LEM2LVA=[0.000,0.000,0.000]
+LEM2CAL=[0.000,0.000,0.000,0.0000]
+MANPOS=[43.66287200,6.09166200,6.00]
+MANPOSUTM=[4838540.69,265505.50,6.00,T32]
+ModeStart=[0]
+ModeZUP=[0,3]
+ModeAlti=[2]
+ALERTCNF=[0.000, 0.000, 2, -1, -1, 0, 0, 0, 0, 0, 0, 0]
+PPP=[0,0,192.168.36.201,192.168.36.202]
+DepthOffset=[0.027,0.000]
+Alias=[PH-1814]
+NTP=[1,0,0.0.0.0,0.0.0.0,0.0.0.0]
+CoordinateMode=[0]
+CoordinateModesList=[0,1,2]
+UtmZoneMode=[0]
+USBL1Forced=[0]
+USBL2Forced=[1]
+USBL3Forced=[1]
+GPS1Forced=[1]
+GPS2Forced=[1]
+LEM1Forced=[1]
+LEM2Forced=[1]
+LBLForced=[0]
+DVLBTForced=[0]
+DVLWTForced=[0]
+DVL2BTForced=[0]
+DVL2WTForced=[0]
+DepthForced=[0]
+OdometerForced=[1]
+DVLCplMode=[0]
+DVL2CplMode=[0]
+DVLTypes=[0,0]
+DVLTriggerPulse=[0]
+DVL2TriggerPulse=[0]
+WaterParams=[0,1000.0]
+DP_State=[1,0]
+DP_PosPrio=[0]
+DP_GpsFilterParams=[0.030000,0.000000]
+DP_GpsModes=[1,1,1,1,1]
+DP_UsblFilterParams=[0.030000,0.000000]
+DP_GpsOutQF=[0]
+DP_EmlogSpeedStdDev=[0.500000]
+DP_SpeedsStdDev=[0.500000,0.500000]
+DP_DepthStdDev=[0.500000]
+ModeDynamic=[1]
+EmbeddedGPS=[0]
+HBConfA=[0]
+HBConfB=[0]
+HBConfC=[0]
+HBConfD=[0]
+HBConfE=[0]
+AlarmConfA=[0]
+AlarmConfB=[0]
+AlarmConfC=[0]
+AlarmConfD=[0]
+AlarmConfE=[0]
+Broadcast=[1]
+ForceIdenticalUDPPorts=[0]
+Turret=[0]
+SystemLVA=[0.000,0.000,0.000]
+SystemPos=[2]
+VehicleLVA=[0.000,0.000,0.000]
+TurretBarrelLVA=[0.000,0.000,0.000]
+GPSPos=[0,0]
+ANGLESConv=[0,0,0]
+ANGLESLatency=[0.000000]
+ModeNavigation=[0]
+Vlan=[0,1,10.1.1.1,255.255.255.0,2,10.2.2.2,255.255.255.0]
+
+
+
+Interpreted Settings PH2824:
+------------------------------
+
+PortR Out Conf: Prot:PHINS_STANDARD, BLV:0, Freq:5.0Hz, Heave:Real_Time_Heave.
+PortA Out Conf: Prot:IXBLUE_STD_BIN_V3, BLV:0, Freq:100.0Hz, Heave:Real_Time_Heave.
+PortB Out Conf: Prot:GPS_LIKE, BLV:2, Freq:10.0Hz, Heave:Real_Time_Heave.
+PortC Out Conf: Prot:SOC_AUTOSUB, BLV:0, Freq:10.0Hz, Heave:Real_Time_Heave.
+PortD Out Conf: Prot:POSTPROCESSING, BLV:0, Freq:50.0Hz, Heave:Real_Time_Heave.
+PortA In Conf : Prot:EXT_SENSOR_BIN.
+PortE Out Conf: Prot:INDYN, BLV:0, Freq:10.0Hz, Heave:Real_Time_Heave.
+PortB In Conf : Prot:USBL_LBL_CTD.
+PortC In Conf : Prot:MICRO_SVT-P.
+PortD In Conf : Prot:GPS.
+PortR Output  : Serial:RS232 In:57.6_kbauds,8,Odd,2.0_bitstop Out:57.6_kbauds,8,Odd,2.0_bitstop, Ethernet:TCP_Server, Port:8110.
+PortA Output  : Serial:None, Ethernet:UDP, IP:192.168.36.125, Port:8200.
+PortB Output  : Serial:RS232 In:38.4_kbauds,8,None,1.0_bitstop Out:38.4_kbauds,8,None,1.0_bitstop, Ethernet:None.
+PortC Output  : Serial:None, Ethernet:UDP, IP:192.168.0.2, Port:1134.
+PortD Output  : Serial:None, Ethernet:TCP_Server, Port:50205.
+PortE Output  : Serial:None, Ethernet:UDP, IP:192.168.0.2, Port:1138.
+PortA Input   : Serial:None, Ethernet:UDP_Broadcast, Port:1135.
+PortB Input   : Serial:None, Ethernet:UDP, IP:192.168.0.2, Port:1143.
+PortC Input   : Serial:None, Ethernet:UDP, IP:192.168.0.2, Port:1139.
+PortD Input   : Serial:None, Ethernet:UDP_Broadcast, Port:1153.
+PulseInA Conf : Prot:None.
+PulseInB Conf : Prot:None.
+PulseInC Conf : Prot:None.
+PulseInD Conf : Prot:None.
+PulseOutA Conf: Prot:None.
+PulseOutB Conf: Prot:None.
+Interfaces    : UTC:G,GPS:A,GPS2:-,Depth:D,Log:B,SVP:F,EmLog:-,EmLog2:-,LBL:-,USBL:E,USBL2:-,USBL3:-,ANGLES:-,DOV:-,UTC2:-,DVL2:C,.
+RejectionModes: GPS1:0,GPSM:2,Depth:1,DVL1_BT:1,DVL1_WT:1,LogEm:0,LogEm2:0,LBL:1,USBL:1,USBL2:0,USBL3:0,DOV:0,DVL2_BT:1,DVL2_WT:1.
+Start Mode    : Immediate_run.
+ZUP Mode      : None.
+Altitude Mode : Depth_sensor.
+System Type   : .
+Navigation Mode: None.
